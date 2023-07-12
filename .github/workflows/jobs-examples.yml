@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: create an artifact for reuse
-        run: echo “Full featured artifact” > build-result.txt
+        run: echo "Full featured artifact" > build-result.txt
   deploy:
     runs-on: ubuntu-latest
     needs: build
